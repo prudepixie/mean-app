@@ -18,5 +18,6 @@ export class PostCreateComponent {
       content: form.value.content
     };
     this.postCreated.emit(post);
+    form.resetForm();
   }
 }

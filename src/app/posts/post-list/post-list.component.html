@@ -3,6 +3,10 @@
     <mat-expansion-panel-header>
       {{post.title}}
     </mat-expansion-panel-header>
-    {{post.content}}
+    <p>{{post.content}}</p>
+    <mat-action-row>
+      <button mat-button> EDIT </button>
+      <button mat-button> DELETE </button>
+    </mat-action-row>
   </mat-expansion-panel>
 </mat-accordion>
